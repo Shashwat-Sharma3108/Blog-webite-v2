@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 
-mongoose.connect("mongodb+srv://admin_Shashwat:Binatone@3108@cluster1.yglo4.mongodb.net/blogDB?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://admin_Shashwat:<Password>@cluster1.yglo4.mongodb.net/blogDB?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology : true
 });
